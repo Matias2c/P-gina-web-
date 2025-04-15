@@ -29,7 +29,7 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand" href="#">Consultora Digital Matías Núñez</a>
+    <a class="navbar-brand" href="#">Consultora Digital</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -46,8 +46,8 @@
 <!-- HERO -->
 <section class="hero">
   <div class="container">
-    <h1>Bienvenido a nuestra Consultora Digital</h1>
-    <p>Impulsa tu negocio con nuestras soluciones digitales personalizadas</p>
+    <h1>Bienvenido a la Consultora de Matías Núñez</h1>
+    <p>Soluciones digitales para tu negocio</p>
   </div>
 </section>
 
@@ -58,28 +58,28 @@
     <div class="row g-4">
       <div class="col-md-4">
         <div class="card">
-          <img src="https://picsum.photos/seed/1/400/250" class="card-img-top" alt="Estrategia Digital">
+          <img src="https://picsum.photos/seed/1/400/250" class="card-img-top" alt="Servicio 1">
           <div class="card-body">
-            <h5 class="card-title">Consultoría en Estrategia Digital</h5>
-            <p class="card-text">Desarrollamos estrategias digitales a medida para mejorar tu presencia online y alcanzar tus objetivos comerciales.</p>
+            <h5 class="card-title">Diseño Web</h5>
+            <p class="card-text">Creamos sitios modernos, rápidos y adaptados a tus necesidades.</p>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card">
-          <img src="https://picsum.photos/seed/2/400/250" class="card-img-top" alt="Desarrollo Web">
+          <img src="https://picsum.photos/seed/2/400/250" class="card-img-top" alt="Servicio 2">
           <div class="card-body">
-            <h5 class="card-title">Desarrollo Web y Aplicaciones</h5>
-            <p class="card-text">Creamos sitios web y aplicaciones eficientes, adaptadas a las necesidades específicas de tu negocio.</p>
+            <h5 class="card-title">Consultoría Digital</h5>
+            <p class="card-text">Te ayudamos a digitalizar tu empresa de forma efectiva.</p>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card">
-          <img src="https://picsum.photos/seed/3/400/250" class="card-img-top" alt="Marketing Digital">
+          <img src="https://picsum.photos/seed/3/400/250" class="card-img-top" alt="Servicio 3">
           <div class="card-body">
-            <h5 class="card-title">Marketing Digital y SEO</h5>
-            <p class="card-text">Mejoramos tu visibilidad en línea con campañas de marketing digital y optimización en motores de búsqueda (SEO).</p>
+            <h5 class="card-title">Soporte Técnico</h5>
+            <p class="card-text">Asistencia profesional para tus sistemas y plataformas.</p>
           </div>
         </div>
       </div>
@@ -117,18 +117,20 @@
 <section id="contacto">
   <div class="container">
     <h2 class="text-center mb-4">Contáctanos</h2>
-    <form class="row g-3">
+    <p class="text-center">Estás contactando con <strong>Matías Núñez</strong> — <a href="mailto:nunezmatiax@gmail.com">nunezmatiax@gmail.com</a></p>
+    <form action="https://formsubmit.co/nunezmatiax@gmail.com" method="POST" class="row g-3">
+      <input type="hidden" name="_captcha" value="false">
       <div class="col-md-6">
-        <label for="nombre" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="nombre" required>
+        <label for="nombre" class="form-label">Tu Nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" required>
       </div>
       <div class="col-md-6">
-        <label for="correo" class="form-label">Correo Electrónico</label>
-        <input type="email" class="form-control" id="correo" required>
+        <label for="correo" class="form-label">Tu Correo Electrónico</label>
+        <input type="email" class="form-control" id="correo" name="correo" required>
       </div>
       <div class="col-12">
         <label for="mensaje" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
       </div>
       <div class="col-12 text-center">
         <button type="submit" class="btn btn-primary">Enviar</button>
