@@ -129,11 +129,11 @@
         <input type="email" class="form-control" id="correo" name="correo" value="nunezmatiax@gmail.com" readonly>
       </div>
       <div class="col-12">
-        <label for="mensaje" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+        <label for="mensaje" class="form-label">¡Feliz por sus consultas! Deja tu mensaje aquí:</label>
+        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required placeholder="Escribe tu consulta o mensaje con confianza..."></textarea>
       </div>
       <div class="col-12 text-center">
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-success btn-lg">Enviar Consulta</button>
       </div>
     </form>
   </div>
