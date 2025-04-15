@@ -121,12 +121,12 @@
     <form action="https://formsubmit.co/nunezmatiax@gmail.com" method="POST" class="row g-3">
       <input type="hidden" name="_captcha" value="false">
       <div class="col-md-6">
-        <label for="nombre" class="form-label">Tu Nombre</label>
-        <input type="text" class="form-control" id="nombre" name="nombre" required>
+        <label for="nombre" class="form-label">Matías Núñez</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" value="Matías Núñez" readonly>
       </div>
       <div class="col-md-6">
-        <label for="correo" class="form-label">Tu Correo Electrónico</label>
-        <input type="email" class="form-control" id="correo" name="correo" required>
+        <label for="correo" class="form-label">nunezmatiax@gmail.com</label>
+        <input type="email" class="form-control" id="correo" name="correo" value="nunezmatiax@gmail.com" readonly>
       </div>
       <div class="col-12">
         <label for="mensaje" class="form-label">Mensaje</label>
